@@ -6,6 +6,7 @@ try:
     import pgcontents
 
     c = get_config()
+    c.NotebookApp.allow_remote_access = True
 
     ### Password protection ###
     # http://jupyter-notebook.readthedocs.io/en/latest/security.html
